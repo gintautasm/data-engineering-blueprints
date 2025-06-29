@@ -1,5 +1,9 @@
 #region Variables
 
+variable "aws_region" {
+  type = string
+}
+
 variable "confluent_cloud_api_key" {
   type = string
   sensitive = true
@@ -70,6 +74,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
+  region = var.aws_region
 }
 
 provider "confluent" {
