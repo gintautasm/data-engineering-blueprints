@@ -1,1 +1,6 @@
+.terraform/
+*.lock.hcl
+*tfstate*
 *.tfvars
+venv/
+.pyiceberg.yaml
