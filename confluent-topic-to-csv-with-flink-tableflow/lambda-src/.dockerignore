@@ -1,0 +1,17 @@
+Dockerfile
+
+.pyiceberg.yaml
+
+# helper files and cache dirs
+__pycache__
+venv
+fluentbit
+
+.editorconfig
+
+consumer.conf
+
+build-event.json
+deploy-event.json
+kafka-event-source.json
+README.md
